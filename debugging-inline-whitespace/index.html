@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Debugging inline whitespace</title>
+	</head>
+	<body>
+		<h1>Debugging inline whitespace</h1>
+		
+		<h2>Inline block, with whitespace between nodes</h2>
+		
+		<div class="images">
+			<img src="../assets/dev-edition-1.png" srcset="../assets/dev-edition-1@4x.png 4x" alt="dev edition logo" />
+			<img src="../assets/dev-edition-2.png" srcset="../assets/dev-edition-2@4x.png 4x" alt="dev edition logo" />
+		</div>
+
+		<h2>Inline block, <em>without</em> whitespace between nodes</h2>
+		
+		<div class="images">
+			<img src="../assets/dev-edition-1.png" srcset="../assets/dev-edition-1@4x.png 4x" alt="dev edition logo" /><img src="../assets/dev-edition-2.png" alt="dev edition logo" srcset="../assets/dev-edition-2@4x.png 4x" />
+		</div>
+
+		<style>
+			.images > * {
+				background: #151d4a;
+			}
+		</style>
+	</body>
+</html>
