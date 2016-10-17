@@ -1,4 +1,4 @@
-# Debugging inline whitespace
+# Debugging inline whitespace ([#1304685](https://bugzilla.mozilla.org/show_bug.cgi?id=1304685))
 
 Web developers don't write all their code in just one line of text. They use white space between their HTML elements because it makes markup more readable: spaces, returns, tabs.
 
