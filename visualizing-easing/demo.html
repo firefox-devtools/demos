@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<style>
+ul, li {
+  list-style-type: none;
+}
+
+li {
+  background: black;
+  height: 4em;
+  width: 4em;
+  display: inline-block;
+  margin: 2em;
+  border-radius: 1em;
+}
+</style>
+<ul>
+  <li data-iterations="1" data-easing="linear" data-fill="none" data-enddelay="1000"></li>
+  <li data-iterations="2" data-easing="ease-in"></li>
+  <li data-iterations="3" data-easing="ease-in-out" data-delay="2000"></li>
+  <li data-iterations="6" data-easing="ease-out" data-enddelay="-1000" data-fill="none"></li>
+  <li data-iterations="Infinity" data-easing="linear"></li>
+  <li data-iterations="5" data-easing="linear" data-delay="-2000"></li>
+  <li data-iterations="5" data-easing="ease" data-direction="alternate"></li>
+</ul>
+<script>
+for (let element of [...document.querySelectorAll('li')]) {
+  let iterations = element.dataset.iterations;
+  let easing = element.dataset.easing;
+  let direction = element.dataset.direction;
+  let delay = element.dataset.delay;
+  let endDelay = element.dataset.enddelay;
+  let fill = element.dataset.fill;
+
+  element.animate([
+    { transform: 'rotate(0deg)', offset: 0 },
+    { transform: 'rotate(270deg)', offset: .5 },
+    { transform: 'rotate(0deg)', offset: 1 }
+  ], {
+    duration: 3000,
+    iterations: iterations === "Infinity" ? Infinity : parseInt(iterations, 10),
+    easing: easing,
+    direction: direction || "normal",
+    delay: parseInt(delay) || 0,
+    endDelay: parseInt(endDelay) || 0,
+    fill: fill || "forwards"
+  });
+}
+</script>
