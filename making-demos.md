@@ -12,15 +12,15 @@ The best way to save other people's time is to put in plenty of yours writing a 
 
 You don't need to get over-the-top creative. Write a script that answers these questions:
 
-a) What is the name of the new feature and its purpose?
-b) How to access it?
-c) What is the outcome of using the feature? (and where appropriate: how do settings affect the output of the feature?)
+1. What is the name of the new feature and its purpose?
+2. How to access it?
+3. What is the outcome of using the feature? (and where appropriate: how do settings affect the output of the feature?)
 
 For example, the answers for demoing a hypothetical 'tool that takes screenshots' could be:
 
-a) Screenshot tool, to capture screenshots of the current website.
-b) Enable tool in settings. Then click on the icon that represents a camera to capture the current website.
-c) A capture of the contents of the current tab is captured and downloaded to the user's computer. The image file is placed on the user's `Downloads` folder (or equivalent).
+1. Screenshot tool, to capture screenshots of the current website.
+2. Enable tool in settings. Then click on the icon that represents a camera to capture the current website.
+3. A capture of the contents of the current tab is captured and downloaded to the user's computer. The image file is placed on the user's `Downloads` folder (or equivalent).
 
 Now that you've thought of this rough script, try to go through the demo steps yourself, to make sure you're not overlooking any step. They might seem obvious to you as developer of the tool, but users cannot read your brain.
 
@@ -94,6 +94,19 @@ TODO
 TODO
 
 ### Editing screenshots
+
+Often it's not enough with just capturing a screenshot, and it needs editing to make it convey information even more easily.
+
+You can use your favourite graphics editor for this; the process is fairly similar for all of them.
+
+#### Highlighting elements
+
+Use this when you want to draw attention to a single point in the screenshot. For example, if you're talking about a new button that has been added to a toolbar, you will want to point to that button in the screenshot.
+
+Common ways of doing this:
+- drawing around the point
+- using arrows (can be neat if your software has support for it)
+- blurring other elements
 
 TODO:
 
