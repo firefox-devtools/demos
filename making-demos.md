@@ -103,16 +103,35 @@ You can use your favourite graphics editor for this; the process is fairly simil
 
 Use this when you want to draw attention to a single point in the screenshot. For example, if you're talking about a new button that has been added to a toolbar, you will want to point to that button in the screenshot.
 
-Common ways of doing this:
-- drawing around the point
-- using arrows (can be neat if your software has support for it)
-- blurring other elements
+A couple of common ways of doing this:
 
-TODO:
+##### Drawing around the area of interest
 
-highlighting and blurring, annotations
-further editing to make image smaller etc
-no text in language to make it easier for localisations
+E.g. using the "pencil" or "brush" tools to draw around element, or point to it with arrows (can be neat if your software has support for it)
+
+![Using brush](./assets/demo-brush.png)
+
+##### Blurring other elements
+
+Select the area of interest, then invert selection, feather ~10px, and apply blur of ~10px too:
+
+![Using blur](./assets/demo-blur.png)
+
+Notice how in this case it doesn't really stand out much as most of the image is very plain and the blurring doesn't cause a significant contrast with the tool we want to highlight.
+
+In this case it might be good to take it a step further and slightly darken the blurred area so we draw full attention to the screenshot button.
+
+Other times we might want to combine several techniques together--play to see what makes the elements stand out more.
+
+##### Avoid annotations with text
+
+Ideally all text would be localised, but text in images is harder to localise than text in text files, as you need to keep the original image and make a localised copy per language.
+
+If you need to highlight several elements in an image, try to just use numbers, and refer to the numbers in your instructions.
+
+This makes it *way easier* to localise demos.
+
+![Using annotations](./assets/demo-annotations.png)
 
 ## Recording and editing videos
 Screenflow, quicktime
