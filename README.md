@@ -8,6 +8,8 @@ We use these for the posts in [the Firefox Nightly blog](http://blog.nightly.moz
 
 Contributions are more than welcome! There are many features and bugs fixed in [DevTools](https://wiki.mozilla.org/DevTools) every week and we would totally *love* your help talking about them.
 
+We are creating issues when things are ready to be demoed [here](https://github.com/mozdevs/devtools-demos/issues) too--have a look and see if there's anything you would like to demo!
+
 ### Choosing a feature to talk about
 
 We want to talk about:
@@ -26,6 +28,8 @@ We suggest you create a new branch to work on the feature. Name it something lik
 The Bugzilla page for the feature will often contain a lot of information, but that is normally just useful for the developer implementing the feature, code reviewers, QA/integration testers, and so on, and very rarely useful for the end web developer that uses Devtools.
 
 Your challenge here is to find a way to demo the new feature to web developers. Some features can be explained with an image. Other features are best demoed with a short screen capture (videos or GIFs, but videos are better, because they can be paused AND converted to GIF if need be). This depends on each feature, and some people simply prefer to see a written description. To top it all, not all features are easily demoable, specially the ones that do not have user visible changes. If you're unsure, tell us about your ideas when you create the issue, and we can provide feedback.
+
+We have also prepared a document providing [general advice for creating demos](./making-demos.md). Let us know if there's anything you miss, or if there's anything you feel should be there too!
 
 At a minimum, a demo folder will contain:
 
