@@ -133,12 +133,74 @@ This makes it *way easier* to localise demos.
 
 ![Using annotations](./assets/demo-annotations.png)
 
+#### Reducing file size
+
+You can make images smaller with tools such as [ImageAlpha](https://pngmini.com/) or any other image optimiser.
+
 ## Recording and editing videos
-Screenflow, quicktime
-Zooming in
-Ffmpeg
-Display keypresses+shortcuts and clicks
+
+Some people learn better with a video than with text. And some things are better explained with moving images than with lots of text.
+
+Plus, short videos are often good social media material.
+
+### Software for recording videos
+
+#### Mac OS
+
+##### Quicktime player
+
+This comes by default with every Mac and it also allows to record, both fullscreen and just part of the screen.
+
+The drawbacks is that you cannot record the computer's audio and you also cannot edit the recording before exporting (e.g. cropping). So you need to do it all right in just one take, or repeat it several times until you get it right.
+
+However, for basic uses it's a good tool.
+
+##### Screenflow
+
+This is a really good tool. It can capture multiple sources of input, like your screen, external screen, microphone and even the computer's audio channel (great for audio demos), and displays all of them in separate tracks so you can adjust and edit their volumes etc individually.
+
+It also lets you do simple but functional editing such as cropping, zooming in and out, changing the playback speed of clips, etc.
+
+It is not free, but it pays back its worth really quickly.
+
+#### Windows
+
+TODO
+
+#### Linux
+
+TODO
+
+### Other utilities
+
+#### ffmpeg
+
+This is a sort of "swiss army knife" for video manipulation. It can be handy if you want to convert between formats (for example, if you have a WebM video and want to publish to a website that only allows MP4).
+
+TODO: add a few examples because ffmpeg syntax is quite "its own thing".
+
+* convert to GIF
+* convert to MP4
+* take screenshots and make into movie
+
+#### Keypress overlays
+
+A very useful resource is to show the keys on the screen as you press them--otherwise it might just look as if things are magically happening on the demos. There are tools you can use for this.
+
+##### [Keycastr](https://github.com/keycastr/keycastr) (Mac OS)
+
+Free tool that displays keypresses on the screen. Easy to install with homebrew.
+
+##### Screenflow
+
+It allows you to not only record from your screen but it can also display the keys you pressed while the recording was happening, filter to show just keys used with modifiers (Alt, option, etc), and also adjust the size and position of the overlay.
 
 ## Recording GIFs
-LICEcap
-ffmpeg
+
+### [LICEcap](http://www.cockos.com/licecap/) (Mac OS, Windows)
+
+It lets you select the part of the screen you want to capture.
+
+### [GIFBrewery](http://gifbrewery.com/) (Mac OS)
+
+Paid tool, but you can preview your exports and adjust settings, etc.
