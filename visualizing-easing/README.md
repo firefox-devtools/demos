@@ -30,7 +30,7 @@ Here are various examples of how easing is represented in the timeline:
 
 And here is a video illustrating several types of easing in the animation inspector panel:
 
-[![Video of the animation panel displaying several types of animations](https://img.youtube.com/vi/OJT-yfTlIE/0.jpg)](https://www.youtube.com/watch?v=OJT-yfTlIE)
+[![Video of the animation panel displaying several types of animations](https://img.youtube.com/vi/-OJT-yfTlIE/0.jpg)](https://www.youtube.com/watch?v=-OJT-yfTlIE)
 
 ## About delays
 
