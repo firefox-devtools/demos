@@ -204,3 +204,8 @@ It lets you select the part of the screen you want to capture.
 ### [GIFBrewery](http://gifbrewery.com/) (Mac OS)
 
 Paid tool, but you can preview your exports and adjust settings, etc.
+
+### [Peek](https://github.com/phw/peek) (Linux)
+
+Free and easy to use, it lets you select the part of the screen you want to capture.
+
