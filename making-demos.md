@@ -78,7 +78,7 @@ Taking a screenshot depends on the operating system you're using. Normally you c
 
 ### System shortcuts
 
-#### Mac OS
+#### macOS
 
 * Full screen: <kbd>⌘</kbd> + <kbd>Shift</kbd> +<kbd>3</kbd>
 * Partial: <kbd>⌘</kbd> + <kbd>Shift</kbd> +<kbd>4</kbd>, then...
@@ -145,7 +145,7 @@ Plus, short videos are often good social media material.
 
 ### Software for recording videos
 
-#### Mac OS
+#### macOS
 
 ##### Quicktime player
 
@@ -171,6 +171,27 @@ TODO
 
 TODO
 
+### Prepending the Firefox DevTools intro video
+
+It's a good idea to also prepend the Firefox DevTools intro video in your new video so it looks more official.
+
+You can download [the video here](https://github.com/devtools-html/demos/blob/master/assets/bumper%201080.mov).
+
+You can see an example of it being used at the start of [this video](https://www.youtube.com/watch?v=uZQTEPGdjAg).
+
+#### macOS
+
+On macOS, you can insert the intro video with Quicktime player by going to the `Edit` menu and selecting the `Add clip to end...` option.
+This will open a dialog for you to pick the intro video. You can then move the inserted clip to before the start of your video by drag and dropping it.
+
+#### Windows
+
+TODO
+
+#### Linux
+
+TODO
+
 ### Other utilities
 
 #### ffmpeg
@@ -187,7 +208,7 @@ TODO: add a few examples because ffmpeg syntax is quite "its own thing".
 
 A very useful resource is to show the keys on the screen as you press them--otherwise it might just look as if things are magically happening on the demos. There are tools you can use for this.
 
-##### [Keycastr](https://github.com/keycastr/keycastr) (Mac OS)
+##### [Keycastr](https://github.com/keycastr/keycastr) (macOS)
 
 Free tool that displays keypresses on the screen. Easy to install with homebrew.
 
@@ -197,11 +218,11 @@ It allows you to not only record from your screen but it can also display the ke
 
 ## Recording GIFs
 
-### [LICEcap](http://www.cockos.com/licecap/) (Mac OS, Windows)
+### [LICEcap](http://www.cockos.com/licecap/) (macOS, Windows)
 
 It lets you select the part of the screen you want to capture.
 
-### [GIFBrewery](http://gifbrewery.com/) (Mac OS)
+### [GIFBrewery](http://gifbrewery.com/) (macOS)
 
 Paid tool, but you can preview your exports and adjust settings, etc.
 
