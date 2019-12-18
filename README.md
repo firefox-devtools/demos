@@ -6,18 +6,18 @@ We use these for the posts in [the Firefox Nightly blog](http://blog.nightly.moz
 
 ## Contributing
 
-Contributions are more than welcome! There are many features and bugs fixed in [DevTools](https://wiki.mozilla.org/DevTools) every week and we would totally *love* your help talking about them.
+Contributions are more than welcome! There are many features and bugs fixed in [DevTools](https://firefox-dev.tools/) every week and we would totally *love* your help talking about them.
 
-We are creating issues when things are ready to be demoed [here](https://github.com/mozdevs/devtools-demos/issues) too--have a look and see if there's anything you would like to demo!
+We are creating issues when things are ready to be demoed [here](https://github.com/firefox-devtools/demos/issues) too--have a look and see if there's anything you would like to demo!
 
 ### Choosing a feature to talk about
 
 We want to talk about:
 
-* new features or closed bugs in DevTools recently, not in Firefox in general. You can find recently resolved bugs with this [Bugzilla search](https://mzl.la/2dKlnV2) (most Firefox Devtools bugs are tracked in Bugzilla, not GitHub).
+* new features or closed bugs in DevTools recently, not in Firefox in general. You can find recently resolved bugs with this [Bugzilla search](https://mzl.la/36I91V2) (most Firefox Devtools bugs are tracked in Bugzilla, not GitHub).
 * tips and tricks, like the ones described [in this page](https://developer.mozilla.org/en-US/docs/Tools/Tips).
 
-To avoid duplicating work, look in the [issues page](https://github.com/mozdevs/devtools-demos/issues) to see if someone is already working on making a demo for a specific feature.
+To avoid duplicating work, look in the [issues page](https://github.com/firefox-devtools/demos/issues) to see if someone is already working on making a demo for a specific feature.
 
 If no one is working on it, create a new issue with the same format so others can find it, and state that you want to work on it. Name the issue in a recognisable way! For example, if you want to make a demo for a feature tracked in bugzilla, name the issue as `bug-number - description of bug`, where the bug number is the number in Bugzilla. For example, `bug 12345678 - demo feature ABC` would correspond to the bug 12345678 in Bugzilla. Or if the issue is for a tip, name it like `tip-feature XYZ`.
 
